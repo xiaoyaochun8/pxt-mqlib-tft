@@ -5,7 +5,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "RB-TFT1.8": "github:xiaoyaochun8/pxt-rb-tft1.8-mq#2990e775a8301bcbdc18be93863ea4a9afb10c93"
     },
     "files": [
         "README.md",
