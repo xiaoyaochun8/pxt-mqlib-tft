@@ -1,21 +1,11 @@
 /**
  * mqlib blocks
- * https://www.zhetao.com/fontarray.html
+ * 取模工具 https://www.zhetao.com/fontarray.html
  */
 
 //% weight=100 color=#5c2d91 icon=""
 //% groups=['tft彩屏','others']
 namespace mqlib {
-
-    /**
-     * tft显示中文
-     */
-    //% subcategory="tft"
-    //% group='tft彩屏'
-    //% block
-    export function tftShowCh(): void {
-        
-    }
 
     // 假设你有一个 TFT 画点函数
     // 这里给一个通用接口，你可以对接真实硬件或 Canvas
@@ -26,9 +16,6 @@ namespace mqlib {
     /**
      * 在 (x,y) 显示 16×16 汉字
      */
-    //% subcategory="tft"
-    //% group='tft彩屏'
-    //% block
     export function lcdShowCN16(
         x: number,
         y: number,
@@ -56,15 +43,17 @@ namespace mqlib {
     }
 
     /**
-     * 显示字符串（多汉字）
+     * tft显示字符串（多汉字）
      */
     //% subcategory="tft"
     //% group='tft彩屏'
     //% block
-    export function lcdShowStrCN16(
+    export function tftShowCN(
         x: number,
         y: number,
-        str: string
+        str: string,
+        // color: number,
+        // bgColor: number
     ) {
         let cx = x;
         for (const ch of str) {
