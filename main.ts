@@ -12,7 +12,7 @@ namespace mqlib {
      */
     //% subcategory="tft"
     //% group='tft彩屏'
-    //% block=''
+    //% block
     export function tftShowCh(): void {
         
     }
@@ -23,7 +23,12 @@ namespace mqlib {
     //     drawPoint(x: number, y: number, color: number): void;
     // }
 
-    // 在 (x,y) 显示 16×16 汉字
+    /**
+     * 在 (x,y) 显示 16×16 汉字
+     */
+    //% subcategory="tft"
+    //% group='tft彩屏'
+    //% block
     export function lcdShowCN16(
         x: number,
         y: number,
@@ -50,7 +55,12 @@ namespace mqlib {
         }
     }
 
-    // 显示字符串（多汉字）
+    /**
+     * 显示字符串（多汉字）
+     */
+    //% subcategory="tft"
+    //% group='tft彩屏'
+    //% block
     export function lcdShowStrCN16(
         x: number,
         y: number,
