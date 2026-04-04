@@ -6,7 +6,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "RB-TFT1.8": "github:xiaoyaochun8/pxt-rb-tft1.8-mq#2990e775a8301bcbdc18be93863ea4a9afb10c93"
+        "RB-TFT1.8": "github:xiaoyaochun8/pxt-rb-tft1.8-mq#869a1df75c3b6b37dab5dd49e4dc6f732d474f19"
     },
     "files": [
         "README.md",
@@ -19,7 +19,7 @@
     ],
     "public": true,
     "targetVersions": {
-        "target": "8.0.18",
+        "target": "8.0.21",
         "targetId": "microbit"
     },
     "supportedTargets": [
