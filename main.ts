@@ -4,7 +4,7 @@
  */
 
 //% weight=100 color=#5c2d91 icon=""
-//% groups=['tft彩屏','others']
+//% groups=['tft-汉字库','others']
 namespace mqlib {
 
     // 假设你有一个 TFT 画点函数
@@ -46,7 +46,7 @@ namespace mqlib {
      * tft显示字符串（多汉字）
      */
     //% subcategory="tft"
-    //% group='tft彩屏'
+    //% group='tft-汉字库'
     //% block="tft彩屏显示中文 $str 在位置x: $x, y: $y"
     export function tftShowCN(
         x: number,
