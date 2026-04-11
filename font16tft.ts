@@ -10,6 +10,7 @@ namespace mqlib{
         {
             str: "中",
             dot: [
+                //左8列，右8列
                 0x01, 0xc0,
                 0x03, 0xc0,
                 0x01, 0xc0,
@@ -17,7 +18,7 @@ namespace mqlib{
                 0x7f, 0xfe,
                 0x73, 0xce,
                 0x73, 0xce,
-                0x73, 0xce,//8
+                0x73, 0xce, //前8行
                 0x7f, 0xfe,
                 0x7f, 0xfe,
                 0x7f, 0xfe,
@@ -25,7 +26,7 @@ namespace mqlib{
                 0x03, 0xc0,
                 0x03, 0xc0,
                 0x03, 0xc0,
-                0x03, 0xc0 //16
+                0x03, 0xc0 //后8行
             ]
         },
         {
